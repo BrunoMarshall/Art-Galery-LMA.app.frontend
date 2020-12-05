@@ -1,5 +1,5 @@
-# soccerplayer.app.frontend
-A soccer player crypto game ported to [Harmony](http://harmony.one) blockchain
+# Art-Galery-LMA.app.frontend
+A Art Galery LMA ported to [Harmony](http://harmony.one) blockchain
 
 ## Install instructions
 
