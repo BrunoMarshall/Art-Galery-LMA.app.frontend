@@ -68,7 +68,7 @@ export const PlayerCardLite = observer<IPlayerCardProps>(props => {
     >
       <img
         width="100%"
-        src={`/players/${
+        src={`/arts/${
           props.player
             ? +props.player.internalPlayerId + 1
             : +props.emptyPlayer.internalPlayerId + 1

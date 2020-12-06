@@ -16,7 +16,7 @@ import * as styles from './styles.styl';
 import { Info } from '../Info';
 
 const MainLogo = styled.img`
-  width: 62px;
+  width: 32px;
   height: 62px;
 `;
 
@@ -59,7 +59,7 @@ export const Head: React.FC<IStyledChildrenProps<BoxProps>> = withTheme(
             </Box>
             <Box>
               <Title size="small" color="BlackTxt" bold>
-                Harmony Soccer Players
+                Harmony Art
               </Title>
             </Box>
           </Box>

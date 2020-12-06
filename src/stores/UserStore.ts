@@ -21,9 +21,9 @@ export class UserStoreEx {
   constructor() {
     setInterval(async () => {
       // @ts-ignore
-      this.isMathWallet = window.harmony && window.harmony.isMathWallet;
+      this.isMathWallet = !!window.onewallet;
       // @ts-ignore
-      this.mathwallet = window.harmony;
+      this.mathwallet = window.onewallet;
 
       if (this.address) {
         const res = await blockchain.getBalance(this.address);
@@ -32,9 +32,9 @@ export class UserStoreEx {
     }, 3000);
 
     // @ts-ignore
-    this.isMathWallet = window.harmony && window.harmony.isMathWallet;
+    this.isMathWallet = !!window.onewallet;
     // @ts-ignore
-    this.mathwallet = window.harmony;
+    this.mathwallet = window.onewallet;
 
     const session = localStorage.getItem('harmony_session');
 

@@ -3,7 +3,6 @@ export * from './ONE';
 export * from './SendArrow';
 export * from './Price';
 export * from './Calendar';
-export * from './CalendarRusal';
 export * from './ArrowD';
 export * from './ArrowU';
 export * from './Time';

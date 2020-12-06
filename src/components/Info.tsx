@@ -4,7 +4,7 @@ import { Title } from './Base/components/Title';
 
 export const Info = () => (
   <Box pad={{ horizontal: 'large', top: 'large' }}>
-    <Title>About Harmony Soccer Players</Title>
+    <Title>About Harmony Art Cards</Title>
     <div>
       <p>
         This open source project give you the chance to collect and own your
