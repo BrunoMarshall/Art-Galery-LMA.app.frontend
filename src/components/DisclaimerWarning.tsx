@@ -56,7 +56,7 @@ const styles = {
 export const Disclaimer = () => (
   <CookieBanner
     styles={styles}
-    message="DISCLAIMER: This site is for technology demonstration. We do NOT own or licence the trademarks of any of the following digital assets"
+    message="DISCLAIMER: LMA Art Gallery are the very first and unique art NFTs created on Harmony Network, collect them before are not affordable anymore. Each buy/sell the price increases 100%.   -> 50% reward goes to the seller and 50% will be used to buy and burn monthly the native deflationary LMA token. LMA tokens are available in https://seeswap.one/"
     onAccept={() => {}}
     cookie="soccerplayers-accept-no-commerce"
     dismissOnScroll={false}

@@ -4,18 +4,18 @@ import { Title } from './Base/components/Title';
 
 export const AuthWarning = () => (
   <Box pad={{ horizontal: 'large', top: 'large' }}>
-    <Title>Use Math Wallet Browser Extension</Title>
+    <Title>Use ONE Wallet Browser Extension</Title>
     <div>
       <p>
-        Looks like you don't have the Math Wallet browser extension installed
-        yet. Head over to the{' '}
+        Looks like you don't have the Harmony One Wallet extension installed
+        yet. Head over to the
         <a
-          href="https://chrome.google.com/webstore/detail/math-wallet/afbcbjpbpfadlkmhmclhkeeodmamcflc"
+          href="https://chrome.google.com/webstore/detail/harmony-one-wallet/fnnegphlobjdpkhecapkijjdkgcjhkib"
           target="_blank"
           rel="noopener norefferer"
         >
-          Math Wallet Chrome Extension
-        </a>{' '}
+          Harmony One Wallet
+        </a>
         to quickly install the extension.
       </p>
     </div>

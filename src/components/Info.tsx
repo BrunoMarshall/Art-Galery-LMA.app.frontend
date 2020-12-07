@@ -4,21 +4,51 @@ import { Title } from './Base/components/Title';
 
 export const Info = () => (
   <Box pad={{ horizontal: 'large', top: 'large' }}>
-    <Title>About Harmony Art Cards</Title>
+    <Title>About LMA art cards</Title>
     <div>
       <p>
-        This open source project give you the chance to collect and own your
-        favorite smart contract soccer player. If someone buy your player, you
-        will receive 13% reward and 2% is allocated in the mint account for
-        service and maintenance.
+        This art gallery contains unique non-fungible tokens (NFT) ART cards on
+        Harmony Network. Non-fungible tokens are used to create verifiable
+        digital scarcity, as well as digital ownership.
       </p>
+
       <p>
-        The soccer player smart contracts are automatically placed on the
-        marketplace, so others can collect them. (please keep in mind that all
-        design of the players is irrelevant in this open source project, and may
-        be subject to changes in the future, what is important is the smart
-        contract with the unique token player id, that remains unique)
+        <a href="https://seeswap.one/" target="_blank">
+          LMA-ART-GALLERY.com
+        </a>{' '}
+        gives you the chance to buy and own ART NFTs Cards. If someone buy your
+        LMA Art card, you will receive 50% reward and 50% will be used to buy
+        and burn LMA tokens. The Art cards price increases 100% each time a user
+        buy it.
       </p>
+
+      <p>
+        LMA token is the first deflationary token on Harmony Network and can be
+        traded on SeeSwap DEX
+      </p>
+
+      <p>
+        <ul>
+          <li>There were originally 1,000,000 LMA minted</li>
+          <li>
+            Every month the LMA CEO account will buy back and burn LMA tokens
+          </li>
+          <li>There will never be newly minted LMA tokens.</li>
+          <li>
+            LMA tokens NEVER will be airdropped, all tokens need to be bought
+            and price will increase over time (only decrease if investor sell
+            with lost)
+          </li>
+          <li>
+            LMA can be traded on SeeSwap{' '}
+            <a href="https://seeswap.one/" target="_blank">
+              https://seeswap.one
+            </a>
+          </li>
+        </ul>
+      </p>
+
+      <p>LMA Token contract 0x7d0546dBb1Dca8108d99Aa389A8e9Ce0C40B2370</p>
     </div>
   </Box>
 );

@@ -59,7 +59,7 @@ export const Head: React.FC<IStyledChildrenProps<BoxProps>> = withTheme(
             </Box>
             <Box>
               <Title size="small" color="BlackTxt" bold>
-                Harmony Art
+                Art Gallery
               </Title>
             </Box>
           </Box>

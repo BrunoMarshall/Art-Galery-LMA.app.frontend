@@ -41,35 +41,35 @@ export const PlayersMarketplace = observer(() => {
               style={{
                 background:
                   soccerPlayers.filter === PLAYERS_FILTER.ALL
-                    ? '#03ade8'
-                    : '#1c2a5e',
+                    ? 'rgb(12, 132, 132)'
+                    : 'black',
               }}
               onClick={() => soccerPlayers.setFilter(PLAYERS_FILTER.ALL)}
             >
-              All cards
+              All art cards
             </Button>
             <Button
               style={{
                 background:
                   soccerPlayers.filter === PLAYERS_FILTER.TOP
-                    ? '#03ade8'
-                    : '#1c2a5e',
+                    ? 'rgb(12, 132, 132)'
+                    : 'black',
               }}
               onClick={() => soccerPlayers.setFilter(PLAYERS_FILTER.TOP)}
             >
-              TOP 5 cards
+              TOP 5 art cards
             </Button>
             <Button
               style={{
                 background:
                   soccerPlayers.filter === PLAYERS_FILTER.MY
-                    ? '#03ade8'
-                    : '#1c2a5e',
+                    ? 'rgb(12, 132, 132)'
+                    : 'black',
               }}
               disabled={!user.isAuthorized}
               onClick={() => soccerPlayers.setFilter(PLAYERS_FILTER.MY)}
             >
-              My cards
+              My art cards
             </Button>
           </Box>
 

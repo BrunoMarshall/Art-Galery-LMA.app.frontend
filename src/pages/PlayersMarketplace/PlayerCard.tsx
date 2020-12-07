@@ -39,7 +39,11 @@ const DataItem = (props: {
         </Text>
       </Box>
       {props.link ? (
-        <a href={props.link} target="_blank" style={{ color: props.color || '#1c2a5e' }}>
+        <a
+          href={props.link}
+          target="_blank"
+          style={{ color: props.color || '#1c2a5e' }}
+        >
           <Text color={props.color || '#1c2a5e'} size={'small'} bold={true}>
             {props.text}
           </Text>
@@ -56,7 +60,7 @@ const DataItem = (props: {
 export interface IPlayerCardProps {
   player?: IPlayerCard;
   emptyPlayer?: IEmptyPlayerCard;
-  forwardedRef: any
+  forwardedRef: any;
 }
 
 const PlayerCardEx = observer<IPlayerCardProps>(props => {
@@ -89,7 +93,7 @@ const PlayerCardEx = observer<IPlayerCardProps>(props => {
 
     actionModals.open(() => <BuyPlayerModal />, {
       title: '',
-      applyText: 'Buy Player Card',
+      applyText: 'Buy Art Card',
       closeText: 'Cancel',
       noValidation: true,
       width: '1000px',
@@ -117,7 +121,20 @@ const PlayerCardEx = observer<IPlayerCardProps>(props => {
       />
 
       {props.player ? (
-        <Box className={styles.infoBlock} fill={true} gap="10px" pad="medium">
+        <Box
+          className={styles.infoBlock}
+          fill={true}
+          gap="10px"
+          pad={{ bottom: 'medium', horizontal: 'medium' }}
+        >
+          <Text
+            style={{ textAlign: 'center', marginTop: 12 }}
+            color={'#1c2a5e'}
+            size={'small'}
+            bold={true}
+          >
+            {props.player.playerName}
+          </Text>
           <DataItem
             icon="ONE"
             iconSize="16px"
@@ -182,5 +199,4 @@ const PlayerCardEx = observer<IPlayerCardProps>(props => {
   );
 });
 
-
-export const PlayerCard = handleViewport(PlayerCardEx)
+export const PlayerCard = handleViewport(PlayerCardEx);

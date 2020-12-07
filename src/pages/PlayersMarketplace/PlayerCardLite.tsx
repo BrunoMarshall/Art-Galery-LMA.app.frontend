@@ -76,7 +76,20 @@ export const PlayerCardLite = observer<IPlayerCardProps>(props => {
       />
 
       {props.player ? (
-        <Box className={styles.infoBlock} fill={true} gap="10px" pad="medium">
+        <Box
+          className={styles.infoBlock}
+          fill={true}
+          gap="10px"
+          pad={{ bottom: 'medium', horizontal: 'medium' }}
+        >
+          <Text
+            style={{ textAlign: 'center', marginTop: 12 }}
+            color={'#1c2a5e'}
+            size={'small'}
+            bold={true}
+          >
+            {props.player.playerName}
+          </Text>
           <DataItem
             icon="ONE"
             iconSize="16px"

@@ -32,7 +32,7 @@ export const BuyPlayerModal = observer<IBuyPlayerModalProps>(props => {
         />
       );
       description =
-        'Receive 13% reward if someone buys your player smart contract and 2% is allocated in the mint account for service and maintenance';
+        'Receive 50% reward if someone buys your art NFT and 50% is allocated in the mint account to buy and burn LMA tokens';
       break;
 
     case 'fetching':
@@ -56,7 +56,7 @@ export const BuyPlayerModal = observer<IBuyPlayerModalProps>(props => {
       pad={{ horizontal: 'large', top: 'large' }}
       className={styles.modalContainer}
     >
-      <Title style={{ textAlign: 'center' }}>Buy Player Card</Title>
+      <Title style={{ textAlign: 'center' }}>Buy Art Card</Title>
       <Box
         margin={{ top: 'large' }}
         direction="row"

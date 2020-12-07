@@ -13,7 +13,7 @@ const hmy = new Harmony('https://api.s0.b.hmny.io', {
 
 const contractJson = require('./SoccerPlayers.json');
 // const contractAddrTestnet = '0x7943381adde30f216cAEb9b9d1927522d7E5476f';
-const contractAddr = '0xe7b4609FcCe9a26c5Ec649c73033174724167f68';
+const contractAddr = '0x0Fc3269F1ED6807aD96C62b66fAfdE2C02f9a76b';
 
 const soccerPlayers = hmy.contracts.createContract(
   contractJson.abi,
@@ -69,7 +69,7 @@ export const buyPlayerById = (params: {
         try {
           tx.from = params.signer;
           // @ts-ignore
-          const signTx = await window.harmony.signTransaction(tx);
+          const signTx = await window.onewallet.signTransaction(tx);
 
           // const [sentTx, txHash] = await signTx.sendTransaction();
 

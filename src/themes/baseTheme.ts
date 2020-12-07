@@ -109,7 +109,7 @@ export const baseTheme: any = {
   inputTextColor: 'black',
   inputBorderRadius: 4,
 
-  brandTitle: 'Rusal classic theme',
+  brandTitle: 'classic theme',
   brandUrl: 'https://example.com',
   brandImage: 'https://placehold.it/350x150',
 
@@ -260,9 +260,9 @@ export const baseTheme: any = {
     colors: {
       colorPrimary: palette.Purple500,
       colorSecondary: 'white',
-      buttonBgColor: '#1c2a5e',
+      buttonBgColor: 'black',
       // buttonBgColor: '#03ade8',
-      buttonHoverBgColor: '#03ade8',
+      buttonHoverBgColor: 'rgb(12, 132, 132)',
       buttonColor: 'white',
     },
   },
