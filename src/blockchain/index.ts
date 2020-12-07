@@ -6,14 +6,14 @@ export const EXPLORER_URL = 'https://explorer.harmony.one/#';
 const GAS_LIMIT = 103802;
 const GAS_PRICE = 1000000000;
 
-const hmy = new Harmony('https://api.s0.b.hmny.io', {
+const hmy = new Harmony('https://api.s0.t.hmny.io', {
   chainType: ChainType.Harmony,
-  chainId: ChainID.HmyTestnet,
+  chainId: ChainID.HmyMainnet,
 });
 
 const contractJson = require('./SoccerPlayers.json');
-// const contractAddrTestnet = '0x7943381adde30f216cAEb9b9d1927522d7E5476f';
-const contractAddr = '0x0Fc3269F1ED6807aD96C62b66fAfdE2C02f9a76b';
+// const contractAddrTestnet = '0x0Fc3269F1ED6807aD96C62b66fAfdE2C02f9a76b';
+const contractAddr = '0xAA557003A04e75626dAcA70d8A70E717F8F987fc';
 
 const soccerPlayers = hmy.contracts.createContract(
   contractJson.abi,
