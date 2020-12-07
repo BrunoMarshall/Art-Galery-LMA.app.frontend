@@ -62,7 +62,7 @@ export const PlayerCardLiteOwner = observer<IPlayerCardProps>(props => {
 
   const { user } = useStores();
 
-  const newPrice = value => value + value * 0.13 + value * 0.02;
+  const newPrice = value => value + value * 0.5 + value * 0.02;
 
   return (
     <Box
