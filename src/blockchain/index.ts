@@ -3,7 +3,7 @@ const { ChainID, ChainType } = require('@harmony-js/utils');
 
 export const EXPLORER_URL = 'https://explorer.harmony.one/#';
 
-const GAS_LIMIT = 103802;
+const GAS_LIMIT = 6721900;
 const GAS_PRICE = 1000000000;
 
 const hmy = new Harmony('https://api.s0.t.hmny.io', {
